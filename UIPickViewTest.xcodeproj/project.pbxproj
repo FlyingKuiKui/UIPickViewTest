@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		745878F31CF2E17C00DB8266 /* DatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 745878F21CF2E17C00DB8266 /* DatePickerView.m */; };
-		74DC972E1CF848D20098915F /* loading.png in Resources */ = {isa = PBXBuildFile; fileRef = 74DC972A1CF848D20098915F /* loading.png */; };
-		74DC972F1CF848D20098915F /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DC972C1CF848D20098915F /* LoadingView.m */; };
-		74DC97301CF848D20098915F /* logoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 74DC972D1CF848D20098915F /* logoIcon.png */; };
 		74EE51F81C7C3DF000F44BAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74EE51F71C7C3DF000F44BAA /* main.m */; };
 		74EE51FB1C7C3DF000F44BAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74EE51FA1C7C3DF000F44BAA /* AppDelegate.m */; };
 		74EE51FE1C7C3DF000F44BAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74EE51FD1C7C3DF000F44BAA /* ViewController.m */; };
@@ -41,10 +38,6 @@
 /* Begin PBXFileReference section */
 		745878F11CF2E17C00DB8266 /* DatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerView.h; sourceTree = "<group>"; };
 		745878F21CF2E17C00DB8266 /* DatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerView.m; sourceTree = "<group>"; };
-		74DC972A1CF848D20098915F /* loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading.png; sourceTree = "<group>"; };
-		74DC972B1CF848D20098915F /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
-		74DC972C1CF848D20098915F /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
-		74DC972D1CF848D20098915F /* logoIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoIcon.png; sourceTree = "<group>"; };
 		74EE51F31C7C3DF000F44BAA /* UIPickViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIPickViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74EE51F71C7C3DF000F44BAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		74EE51F91C7C3DF000F44BAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -88,17 +81,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		74DC97291CF848D20098915F /* LoadIingView */ = {
-			isa = PBXGroup;
-			children = (
-				74DC972A1CF848D20098915F /* loading.png */,
-				74DC972B1CF848D20098915F /* LoadingView.h */,
-				74DC972C1CF848D20098915F /* LoadingView.m */,
-				74DC972D1CF848D20098915F /* logoIcon.png */,
-			);
-			path = LoadIingView;
-			sourceTree = "<group>";
-		};
 		74EE51EA1C7C3DF000F44BAA = {
 			isa = PBXGroup;
 			children = (
@@ -126,7 +108,6 @@
 				74EE51FA1C7C3DF000F44BAA /* AppDelegate.m */,
 				74EE51FC1C7C3DF000F44BAA /* ViewController.h */,
 				74EE51FD1C7C3DF000F44BAA /* ViewController.m */,
-				74DC97291CF848D20098915F /* LoadIingView */,
 				745878F11CF2E17C00DB8266 /* DatePickerView.h */,
 				745878F21CF2E17C00DB8266 /* DatePickerView.m */,
 				74EE51FF1C7C3DF000F44BAA /* Main.storyboard */,
@@ -270,8 +251,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74DC972E1CF848D20098915F /* loading.png in Resources */,
-				74DC97301CF848D20098915F /* logoIcon.png in Resources */,
 				74EE52061C7C3DF000F44BAA /* LaunchScreen.storyboard in Resources */,
 				74EE52031C7C3DF000F44BAA /* Assets.xcassets in Resources */,
 				74EE52011C7C3DF000F44BAA /* Main.storyboard in Resources */,
@@ -300,7 +279,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				74EE51FE1C7C3DF000F44BAA /* ViewController.m in Sources */,
-				74DC972F1CF848D20098915F /* LoadingView.m in Sources */,
 				74EE51FB1C7C3DF000F44BAA /* AppDelegate.m in Sources */,
 				745878F31CF2E17C00DB8266 /* DatePickerView.m in Sources */,
 				74EE51F81C7C3DF000F44BAA /* main.m in Sources */,
